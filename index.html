@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Futuro: Arquitecto</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f1f1f1;
+      color: #333;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .header {
+        grid-column: 1 / 3;
+        background-color: #2e7d32;
+        padding: 20px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sidebar {
+        grid-column: 1 / 2;
+        background-color: #c8e6c9;
+        padding: 15px;
+        border: 2px solid #2e7d32;
+    }
+
+    .contenido {
+        grid-column: 2 / 3;
+        background-color: #e8f5e9;
+        padding: 20px;
+        border: 2px solid #2e7d32;
+    }
+
+    .footer {
+        grid-column: 1 / 3;
+        background-color: #2e7d32;
+        padding: 10px;
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+        color: white;
+    }
+
+    .elemento {
+        border-radius: 5px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border: 2px solid #4caf50;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+
+    h2, h3 {
+      color: #1b5e20;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="contenedor">
+      <div class="elemento header">🏛️ Mi futuro: Ser arquitecto</div>
+      
+      <div class="elemento sidebar">
+        <h3>Datos Personales</h3>
+        <ul>
+          <li><strong>Nombre:</strong> Thomas Lehnhoff Perdomo</li>
+          <li><strong>Edad:</strong> 17 años</li>
+          <li><strong>Grado:</strong> IV</li>
+          <li><strong>Sección:</strong> B</li>
+          <li><strong>Hobbies:</strong> dibujar, observar edificios y crear modelos</li>
+        </ul>
+      </div>
+      
+      <div class="elemento contenido">
+        <h2>¿Por qué quiero ser arquitecto?</h2>
+        <p>Desde pequeño me ha fascinado cómo se construyen los edificios. Me gusta imaginar espacios que no existen aún y pensar en cómo las personas los usarán y vivirán en ellos.</p>
+
+        <p>La arquitectura combina arte, ciencia y creatividad. Diseñar estructuras funcionales pero también bellas es una forma poderosa de mejorar el mundo que nos rodea.</p>
+
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/09/14/architecture-1867726_1280.jpg" alt="Diseño arquitectónico con planos">
+
+        <h2>Mi inspiración</h2>
+        <p>Me inspiran arquitectos como Zaha Hadid, Antoni Gaudí y Tadao Ando. Sus obras no solo son edificios, son expresiones de arte que transforman ciudades y vidas.</p>
+
+        <img src="https://cdn.pixabay.com/photo/2018/01/18/07/10/architecture-3088176_1280.jpg" alt="Edificio moderno con diseño creativo">
+
+        <h2>Mi plan</h2>
+        <p>Quiero estudiar arquitectura en una universidad que me brinde bases técnicas y artísticas. Planeo hacer maquetas, usar software de diseño, y visitar muchas ciudades para inspirarme. Mi meta es diseñar espacios sostenibles y humanos.</p>
+
+        <img src="https://cdn.pixabay.com/photo/2015/05/15/14/47/blueprint-768728_1280.jpg" alt="Planos arquitectónicos">
+      </div>
+      
+      <div class="elemento footer">
+        Thomas Lehnhoff Perdomo — IV — Sección B
+      </div>
+    </div>
+  </main>
+</body>
+</html>
